@@ -3,6 +3,7 @@
 name: Webhook test
 
 on:
+  fork:
   workflow_dispatch:
   repository_dispatch:
     types: my-event
